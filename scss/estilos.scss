@@ -1,0 +1,367 @@
+/* Forma Externa + recomendable */
+/*Hoja de estilos*/
+
+/** FLEX **/
+.padre-flex {
+  display: flex;
+}
+
+h1 {
+  color: palevioletred;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+h2 {
+  color: plum;
+  text-align: center;
+}
+h3 {
+  color: cornflowerblue;
+}
+p {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+table {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+form {
+  font-family: "Roboto Condensed", sans-serif;
+  size: 13px;
+}
+
+/**
+Menu Inicio
+**/
+nav {
+  color: pink;
+  /*text-align: center;*/
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+//** Se aplico scss
+ul.topnav {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  width: 100%;
+
+  li.topLi {
+    display: inline-block;
+    width: 16.5%;
+    position: relative;
+  }
+
+  a.topA {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: pink;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+ul.topnav li.topLi a.topA:hover:not(.active) {
+  background-color: black;
+}
+
+ul.topnav li.topLi a.topA.active {
+  background-color: black;
+}
+/*
+a.topA:hover {
+  background-color: black;
+}*/
+
+/** 
+Menu Fin
+**/
+
+.fondoBody {
+  background-color: white;
+}
+.fondosection {
+  background-color: #cccc;
+}
+.fondoAside {
+  background-color: #e0ffff;
+}
+
+section {
+  flex-basis: 75%;
+  padding: 1rem;
+}
+
+//** Se aplico scss
+aside {
+  flex-basis: 25%;
+  h1 {
+    text-align: center;
+  }
+  div {
+    margin: 20px 15px;
+  }
+}
+
+//** Se aplico scss - NESTING O ANIDACION
+#asidePromos {
+  background-color: pink;
+  width: 170px;
+  height: 30px;
+  transform: scale(1, 1);
+  margin-bottom: 10px;
+
+  &:hover {
+    height: 100px;
+    width: 340px;
+    padding: 20px;
+    transform: scale(1, 1);
+    background-color: white;
+  }
+
+  h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+//** Se aplico scss
+#productos {
+  background-color: mistyrose;
+  justify-content: space-around;
+  padding: 5px 5px;
+
+  div {
+    width: 33.3%;
+  }
+
+  img {
+    height: 63%;
+    padding: 5px 5px;
+  }
+}
+
+//** Se aplico scss
+footer {
+  padding: 10px 10px;
+  margin: 20px 0;
+  background-color: pink;
+  div {
+    flex-basis: 33.3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    padding: 0 10px;
+    margin: auto 0;
+  }
+  p {
+    color: white;
+  }
+}
+
+/*relative*/
+/**.sectionFooter {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  /*border: solid 2px;*/ /**
+  padding-left: 30px;
+  padding-right: 30px;
+} **/
+/*
+.absoluto {
+  background-color: yellow;
+  position: absolute; 
+  top: 50px;
+  right: 30px;
+}
+*/
+
+.centrar {
+  text-align: center;
+}
+
+.interlineado {
+  line-height: 1.6px;
+}
+
+.normal {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: 10px;
+  color: Grey;
+}
+
+.italica {
+  font-style: italic;
+  font-family: Impact, sans-serif;
+}
+
+.sacarSubrayado {
+  text-decoration: none;
+}
+
+div.divVideo {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/**
+css Form - Inicio
+**/
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: none;
+}
+
+input[type="reset"] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: none;
+}
+
+input[type="submit"]:hover {
+  background-color: pink;
+}
+
+input[type="reset"]:hover {
+  background-color: pink;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 14px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-75-radio {
+  float: left;
+  width: 75%;
+  margin-top: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+//** Se aplico scss
+/*Css Grids*/
+#padre {
+  /* Probando propiedades */
+  justify-items: stretch; /* start | end | center | stretch */
+  align-items: stretch; /* start | end | center | stretch */
+  /* --- */
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-template-rows: 160px 160px;
+  grid-row-gap: 10px;
+  background-color: #cccc;
+
+  div {
+    font-family: "Roboto Condensed", sans-serif;
+    border: solid 1px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #cccc;
+  }
+}
+
+/**
+css Form - Fin
+**/
