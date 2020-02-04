@@ -46,61 +46,6 @@ form {
   size: 13px;
 }
 
-/**
-Menu Inicio
-**/
-/* line 41, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-nav {
-  color: pink;
-  /*text-align: center;*/
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-/* line 49, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-ul.topnav {
-  list-style: none;
-  font-size: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* line 55, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-ul.topnav li.topLi {
-  display: inline-block;
-  width: 16.5%;
-  position: relative;
-}
-
-/* line 61, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-ul.topnav a.topA {
-  font-size: 14px;
-  text-align: center;
-  display: block;
-  color: white;
-  background-color: pink;
-  padding: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* line 73, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-ul.topnav li.topLi a.topA:hover:not(.active) {
-  background-color: black;
-}
-
-/* line 77, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-ul.topnav li.topLi a.topA.active {
-  background-color: black;
-}
-
-/*
-a.topA:hover {
-  background-color: black;
-}*/
-/** 
-Menu Fin
-**/
 /* line 89, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 .fondoBody {
   background-color: white;
@@ -263,6 +208,10 @@ footer p {
 div.divVideo {
   text-align: center;
   padding-bottom: 30px;
+}
+
+div.indxText {
+  margin-top: 100px;
 }
 
 /**
