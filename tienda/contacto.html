@@ -31,6 +31,24 @@
   </head>
 
   <body class="fondoBody">
+    <!--Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!--End Scripts-->
+
     <header class="fondoHeader">
       <a href="../index.html">
         <img src="../imagenes/banner-marca.jpg" alt="logo de la marca" />
@@ -80,7 +98,7 @@
 
     <section class="fondosection">
       <h2>FORMULARIO DE CONTACTO</h2>
-      <div class="container">
+      <div class="containerForm">
         <form>
           <fieldset>
             <legend>Datos obligatorios</legend>
@@ -173,25 +191,36 @@
       </div>
     </section>
 
-    <footer class="padre-flex">
-      <div>
-        <p>-----------------------------------------------</p>
-        <strong> Creado por Evelyn - 2019 </strong>
-        <p>-----------------------------------------------</p>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <strong>Creado por Evelyn</strong>
+          </div>
+
+          <div class="col-4">
+            <a href="https://www.facebook.com/SHE.estilo.importado/">
+              <img src="../imagenes/icon-face.png" style="width: 20px; height: 20px;"> </img>
+            </a>
+            <a href="https://www.instagram.com/she.estilo/">
+              <img src="../imagenes/icon-insta.png" style="width: 20px; height: 20px;"> </img>
+            </a>
+            <a href="mailto:she.estilo@gmail.com">
+              <img src="../imagenes/icon-mail.png" style="width: 20px; height: 20px;"> </img>
+            </a>
+          </div>
+
+          <div class="col-4">
+            Ubicacion <br />
+            Almagro - CABA
+          </div>
+
+        </div>
       </div>
-      <div>
-        Redes Sociales <br />
-        @sheestilo
-      </div>
-      <div>
-        <p>------------------------------------------</p>
-        Contactanos: <br />
-        <a href="mailto:she.estilo@gmail.com">she.estilo@gmail.com</a>
-        <p>------------------------------------------</p>
-      </div>
-      <div>
-        Ubicacion <br />
-        Almagro - CABA
+      <div class="container">
+        <div class="footer-copyright text-center py-3">
+          Argentina - 2020
+        </div>
       </div>
     </footer>
   </body>

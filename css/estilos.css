@@ -113,7 +113,7 @@ Menu Fin
 
 /* line 95, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 .fondoAside {
-  background-color: #e0ffff;
+  background-color: pink;
 }
 
 /* line 99, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
@@ -140,15 +140,15 @@ aside div {
 /* line 116, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 #asidePromos {
   background-color: pink;
-  width: 170px;
-  height: 30px;
+  width: 340px;
+  height: 50px;
   transform: scale(1, 1);
   margin-bottom: 10px;
 }
 
 /* line 123, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 #asidePromos:hover {
-  height: 100px;
+  height: 80px;
   width: 340px;
   padding: 20px;
   transform: scale(1, 1);
@@ -345,10 +345,10 @@ select {
 }
 
 /* line 300, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-.container {
+.containerForm {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 50px;
 }
 
 /* line 306, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
