@@ -115,21 +115,33 @@ aside div {
   }
 }
 
-/* line 147, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-#productos {
-  background-color: mistyrose;
-  justify-content: space-around;
-  padding: 5px 5px;
+#contacto {
+  background-color: pink;
+  padding: 20px;
 }
 
-/* line 152, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
-#productos div {
-  width: 33.3%;
+.botonForm {
+  background-color: #cccc;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.prod {
+  padding-bottom: 20px;
+}
+
+/* line 147, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
+#productos {
+  background-color: pink;
+  justify-content: space-around;
+  padding: 20px 10px;
 }
 
 /* line 156, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 #productos img {
-  height: 63%;
+  height: 70%;
   padding: 5px 5px;
 }
 
@@ -252,7 +264,7 @@ label {
 
 /* line 262, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 input[type="submit"] {
-  background-color: pink;
+  background-color: #cccc;
   color: white;
   padding: 12px 20px;
   margin: 10px;
@@ -264,7 +276,7 @@ input[type="submit"] {
 
 /* line 273, ../../../../../../../../../../../../../Users/evelynpanduro/Documents/CoderHouse/Desafio 3/scss/estilos.scss */
 input[type="reset"] {
-  background-color: pink;
+  background-color: #cccc;
   color: white;
   padding: 12px 20px;
   margin: 10px;
